@@ -216,7 +216,7 @@ Este repositório possui natureza **estritamente acadêmica, demonstrativa e ped
 
 ## 👨‍💻 Autor
 
-Desenvolvido com dedicação por você. Conecte-se comigo e confira meus outros projetos de design e desenvolvimento de software!
+Desenvolvido com dedicação por VINYCIUS LOPES MONETRIO DA SILVA. Conecte-se comigo e confira meus outros projetos de design e desenvolvimento de software!
 
 <p align="left">
   <a href="https://github.com"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
