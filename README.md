@@ -53,21 +53,28 @@ Estruturar e consolidar um guia de identidade de marca inspirado no ecossistema 
 
 ---
 
-## 🧠 Arquitetura do Conceito
+## 🧠 Conceito Arquitetural
 
-Uma identidade visual robusta funciona como um ecossistema modular onde a alteração de um nó impacta toda a percepção de valor da marca.
+Abaixo está o mapeamento de dependências e ramificações que dão vida à experiência visual deste projeto:
 
-```text
-                  [ SISTEMA DE IDENTIDADE VISUAL ]
-                                 │
-         ┌───────────────────────┼───────────────────────┐
-         ▼                       ▼                       ▼
-   [ BRANDING ]            [ COMPOSIÇÃO ]          [ ACESSIBILIDADE ]
-         │                       │                       │
-   ┌─────┴─────┐           ┌─────┴─────┐           ┌─────┴─────┐
-   ▼           ▼           ▼           ▼           ▼           ▼
-Logotipo    Conceito     Cores    Tipografia   Contraste  Legibilidade
-                       (Tokens)    (Escalas)   (WCAG AA)   (Leitura)
+```mermaid
+graph TD
+    A[Brand Guidelines Itaú] --> B(Logotipo Core)
+    A --> C(Sistemas Cromáticos)
+    A --> D(Hierarquia Tipográfica)
+    
+    C --> C1[Primários: Laranja]
+    C --> C2[Secundários: Azul]
+    C --> C3[Neutros: Dark/Light]
+    
+    D --> D1[Família: Poppins]
+    D --> D2[Escala Modular: 12px a 48px]
+    
+    B & C1 & D1 --> E[Matriz de Contraste & WCAG]
+    E --> F[Interface Final Consistente]
+    
+    style A fill:#FF6200,stroke:#333,stroke-width:2px,color:#fff
+    style F fill:#267FE3,stroke:#333,stroke-width:2px,color:#fff
 ```
 
 ---
