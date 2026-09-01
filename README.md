@@ -183,22 +183,6 @@ Para a modelagem deste repositório e materialização teórica da marca, empreg
 
 ---
 
-## 📂 Estrutura Arquitetural do Repositório
-
-```text
-├── .github/                # Configurações do repositório no GitHub
-├── assets/                 # Ativos de mídia estática do projeto
-│   ├── brand/              # Logotipos oficiais e variações permitidas
-│   └── screenshots/        # Capturas de tela e previews do guia visual
-├── docs/                   # Documentação detalhada complementar
-│   ├── typography.md       # Especificações completas da fonte Poppins
-│   └── color-palette.json  # Export das cores em formato legível por código (Tokens)
-├── src/                    # Arquivos fontes do projeto / Códigos fonte
-└── README.md               # Guia mestre (Esta documentação)
-```
-
----
-
 ## 📚 Aprendizados & Key Takeaways
 
 O desenvolvimento deste estudo aprofundado consolidou conceitos valiosos sobre o ciclo de vida do design centrado no usuário:
